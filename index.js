@@ -4,3 +4,5 @@ class Circle{
     this.radius=radius
   }
 }
+
+set
