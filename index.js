@@ -11,4 +11,7 @@ get diameter(){
 set diameter(diameter){
   this._diameter=diameter
 }
+get circumference(){
+  return Math.PI*this.diameter
+}
 }
