@@ -21,6 +21,6 @@ get area(){
   return Math.PI*radius*radius
 }
 set area(area){
-  this.radius=Math.sqrt
+  this.radius=Math.sqrt(area/Math.PI)
 }
 }
