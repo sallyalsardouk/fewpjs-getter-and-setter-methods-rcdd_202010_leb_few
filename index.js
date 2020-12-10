@@ -9,7 +9,7 @@ get diameter(){
   return this.radius * 2
 }
 set diameter(diameter){
-  this._diameter=diameter
+  this._diameter=
 }
 get circumference(){
   return Math.PI*(this.radius*2)
