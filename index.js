@@ -15,6 +15,6 @@ get circumference(){
   return Math.PI*(this.radius*2)
 }
 set circumference(circumference){
-  
+  this.radius=circumference
 }
 }
